@@ -5,11 +5,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ── YOUR CREDENTIALS ─────────────────────────────────────────────────────────
-const USER_ID = "anshikasingh_ddmmyyyy"; // REPLACE ddmmyyyy with your DOB
-const EMAIL_ID = "your.email@chitkara.edu.in"; // REPLACE with your actual email
-const COLLEGE_ROLL = "2310992034"; // REPLACE with your actual roll number
-// ─────────────────────────────────────────────────────────────────────────────
+const USER_ID = "anshikasharma_13042005";
+const EMAIL_ID = "anshika0034.be23@chitkara.edu.in";
+const COLLEGE_ROLL = "2310990034";────────────────────────────────────────────────
 
 const EDGE_REGEX = /^([A-Z])->([A-Z])$/;
 
